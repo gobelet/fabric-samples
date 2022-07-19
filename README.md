@@ -23,16 +23,14 @@ To run some files in the terminal :
 - Run the files you want using node
 The first file that should be run is init.js
 
-Instructions to run a file :
-if the variable is in [ ], it means it is optional
-
-init.js [nb_tickets] -> creates the first queue
-createQueue.js queueId [nb_tickets] -> to create a new queue
-readQueue.js queueId -> returns the information related to the queue with ID queueID
-readAll.js -> returns all queues
-readStatus.js clientId [queueId] -> returns the rank and number of tickets left related to a specific clientId and queueId
-enterQueue.js clientId [queueId] -> enters a client in the queue with clientId
-leaveQueue.js clientId [queueId] -> deletes clientId from queueId
-pay.js clientId [queueId] -> registers payment for clientId in queueId
+Instructions to run a file (if the variable is in [ ], it means it is optional):
+- init.js [nb_tickets] -> creates the first queue
+- createQueue.js queueId [nb_tickets] -> to create a new queue
+- readQueue.js queueId -> returns the information related to the queue with ID queueID
+- readAll.js -> returns all queues
+- readStatus.js clientId [queueId] -> returns the rank and number of tickets left related to a specific clientId and queueId
+- enterQueue.js clientId [queueId] -> enters a client in the queue with clientId
+- leaveQueue.js clientId [queueId] -> deletes clientId from queueId
+- pay.js clientId [queueId] -> registers payment for clientId in queueId
 
 By default, the queueId will be "queue1" (the ID of the queue created by running the init.js file), and nb_tickets will be 5
