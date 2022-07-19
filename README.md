@@ -21,7 +21,7 @@ To run some files in the terminal :
 - Run "./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-javascript/ -ccl javascript"
 - Go to asset-transfer-basic/application-javascript/
 - Run the files you want using node
-The first file that should be run is init.js
+- The first file that should be run is init.js
 
 Instructions to run a file (if the variable is in [ ], it means it is optional):
 - init.js [nb_tickets] -> creates the first queue
